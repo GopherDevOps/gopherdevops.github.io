@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Go For DevOps Book">
+  <meta name="keywords" content="sre,devops,go,golang,kubernetes,terraform,packer,automation">
+  <meta name="author" content="John Doak">
+
+  <title>Go For DevOps Book</title>
+
+  <!-- Mobile Specific Meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="assets/vendors/bootstrap/bootstrap.css">
+  <!-- Iconfont Css -->
+  <link rel="stylesheet" href="assets/vendors/awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="assets/vendors/flaticon/flaticon.css">
+  <link rel="stylesheet" href="assets/vendors/lineicons/lineicons.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="assets/vendors/animate-css/animate.css">
+  <link rel="stylesheet" href="assets/vendors/owl/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/vendors/owl/assets/owl.theme.default.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body id="top-header">
+
+
+
+<header class="header-style-1"> 
+    <div class="header-topbar topbar-style-1">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-xl-8 col-lg-8 col-sm-6">
+                   <div class="header-contact text-center text-sm-start text-lg-start">
+                        <!--<a href="#">1010 Moon ave, New York, NY US</a>-->
+                   </div>
+                </div>
+
+                <!--
+                <div class="col-xl-4 col-lg-4 col-sm-6">
+                    <div class="header-socials text-center text-lg-end">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+
+    <div class="header-navbar navbar-sticky">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="site-logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo-white.png" alt="" class="img-fluid" />
+                    </a>
+                </div>
+
+                <div class="offcanvas-icon d-block d-lg-none">
+                    <a href="#" class="nav-toggler"><i class="fal fa-bars"></i></a> 
+                </div>
+
+                <nav class="site-navbar ms-auto">
+                    <ul class="primary-menu">
+                        <li class="current">
+                            <a href="index.html">Home</a>
+                            <!--
+                            <ul class="submenu">
+                                <li><a href="index.html">Home One</a></li>
+                                <li><a href="index-2.html">Home Two</a></li>
+                                <li><a href="index-3.html">Home Three</a></li>
+                                <li><a href="index-4.html">Home Four</a></li>
+                                <li><a href="index-5.html">Home Five</a></li>
+                                <li><a href="index-6.html">Home Six</a></li>
+                            </ul>
+                            -->
+                        </li>
+                        <li><a href="#about" class="smoth-scroll">About</a></li>
+                        <li><a href="#chapters" class="smoth-scroll">Chapters</a></li>
+                        <!--
+                        <li>
+                            <a href="#">Pages</a>
+                            <ul class="submenu">
+                            <li><a href="#benefits" class="smoth-scroll">benefits</a></li>
+                                <li><a href="#pricing" class="smoth-scroll">Pricing</a></li>
+                                <li><a href="#faq" class="smoth-scroll">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#reviews" class="smoth-scroll">reviews</a></li>
+                        -->
+                        <li><a href="#author" class="smoth-scroll">Authors</a></li>
+                    </ul>
+
+                    <a href="#" class="nav-close"><i class="fal fa-times"></i></a>
+                </nav>
+
+                <div class="header-btn d-none d-xl-block">
+                    <a href="https://www.amazon.com/Go-DevOps-language-Kubernetes-Terraform/dp/1801818894/ref=sr_1_1?crid=3UJVTH5WHIGI8&keywords=go+for+devops&qid=1656568378&sprefix=go+for+devops%2Caps%2C126&sr=8-1" class="btn btn-main-2 btn-sm-2 rounded">Get It Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--====== Header End ======-->
+<!-- Banner Section Start -->
+<section class="banner-style-1 banner-padding">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-12 col-xl-7 col-lg-7">
+                <div class="banner-content ">
+                   <!-- <span class="lead">*eBook includes iBooks, PDF & ePub versions </span> -->
+                    <h1 class="mb-40">Build Robust Tools, Extend DevOps Services, Develop Operational Insights</h1>
+                    <p>Get 634 pages of techniques using Go to let you sip more coffee and spend less time debugging!
+                    </p>
+
+                    <div class="btn-container">
+                        <a href="#author" class="btn btn-main">About Authors</a>
+                        <!--
+                        <a href="#" class="ms-3 btn-video"> <i class="fa fa-play"></i>  Watch Reviews</a>
+                        -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-xl-5 col-lg-5">
+                <div class="banner-img mt-5 mt-lg-0">
+                    <img src="assets/images/banner/ebook.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</section>
+<!-- Banner Section End -->
+
+<!--  Feature Intro Start -->
+<section class="features-intro section-padding" id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-6">
+                <div class="section-heading text-center mb-70">
+                    <h2 class="font-lg mb-20">Who this book for</h2>
+                    <p>Anyone interested in methods to deploy software and gain operational insights using the Go language</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="feature-item feature-style-left mb-5 mb-lg-0">
+                    <div class="feature-icon icon-bg-1">
+                        <i class="fad fa-users"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>DevOps Engineers</h4>
+                        <p>Who want to explore using Go to make them more productive by extending DevOps software like Kubernetes, Terraform, Packer, or building your own tools!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="feature-item feature-style-left mb-5 mb-lg-0">
+                    <div class="feature-icon icon-bg-2">
+                        <i class="far fa-file-certificate"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Software Engineers</h4>
+                        <p>Who would like to use NoOps practices to deploy software and build in operational insights</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 ">
+                <div class="feature-item feature-style-left">
+                    <div class="feature-icon icon-bg-3">
+                        <i class="fa fa-video"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>DevOps Students</h4>
+                        <p>Who want to know how Go can be leveraged in DevOps and NoOps settings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  Feature Intro End -->
+
+
+<!-- About Section Start -->
+<!--
+<section class="about-section section-padding-btm" >
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-6 pe-5">
+                <div class="about-img">
+                    <img src="assets/images/about/about-2.jpg" alt="" class="img-fluid">
+                    <div class="rating">
+                        <h2>4.9 <span>(300 reviews)</span></h2>
+                        <p>Average rating we have got from users</p>
+                    </div>
+               </div>
+            </div>
+
+            <div class="col-xl-5 col-lg-5">
+                <div class="about-content mt-4 mt-xl-0">
+                    <span class="subheading">10 years Glory of success</span>
+                    <h3 class="font-lg mb-30"> Everything in your hand using mobile or tablet </h3>
+                
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-sm-6">
+                            <div class="count-item">
+                                <h4> <span class="counter">24</span>+</h4>
+                                <p>Award we have got from different organization </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-sm-6">
+                            <div class="count-item">
+                                <h4> <span class="counter">97</span>%</h4>
+                                <p>Satisfaction rates comes from awesome users</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-main-outline">Discover More</a>  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<!-- About Section END -->
+ <!-- chapters start -->
+ <div class="chapters section-padding-btm" id="chapters">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-6">
+                <div class="section-heading text-center mb-70">
+                    <span class="subheading">Book Overview</span>
+                    <h2 class="font-lg mb-20">Subjects Covered</h2>
+                    <p>This book covers techniques and tools that can be essential for DevOps professionals.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>The Go Language</h4>
+                    <p>Learn the basics and essentials of the Go language</p>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Filesystem interactions </h4>
+                    <p>Learn how to read or stream files in the filesystem.</p>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Common Data Formats </h4>
+                    <p>Covers how to encode/decode common data formats: CSV, JSON, XLS.</p>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Interact with Remote Data Sources</h4>
+                    <p>Learn how you can build REST and gRPC client/servers.</p>
+                </div>
+            </div>
+
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Write Command Line Tooling</h4>
+                    <p>How to use the flags and Cobra packages to develop command line tools.</p>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Automate Command Line Tasks</h4>
+                    <p>Automate tasks locally using the exec package or remotely using SSH.</p>
+                </div>
+            </div>
+
+             <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Observability with OpenTelemetry</h4>
+                    <p>Learn how to use OpenTelemetry for operational insights.</p>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Automate with GitHub Actions</h4>
+                    <p>Use GitHub Actions with Go to provide continuous integration.</p>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Using ChatOps to Increase Efficiency</h4>
+                    <p>Build a ChatOps bot with Slack to have operational insights at your fingertips.</p>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Creating Immutable Infrastructure Using Packer</h4>
+                    <p>Use Go to extend Packer to build system/VM images.</p>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Infrastructure as Code with Terraform</h4>
+                    <p>Use Go to build your own Terraform providers.</p>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Deploying and Building Applications in Kubernetes</h4>
+                    <p>Extending Kubernetes with the Operators SDK and Go.</p>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Programming the Cloud</h4>
+                    <p>Learn how to use a Azure's cloud SDK to provision and control cloud instances.</p>
+                </div>
+            </div>
+
+            
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="chapter-item">
+                     <h4>Designing for Chaos</h4>
+                    <p>Master techniques to prevent your DevOps services from going sideways and killing your infrastructure.</p>
+                </div>
+            </div>
+
+           
+            
+           
+       
+            
+
+        </div>
+    </div>
+</div>
+<!-- chapters end -->
+
+ <!-- benefits start -->
+ <!--
+ <div class="benefits section-padding" id="benefits">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-xl-5 col-lg-5">
+                <div class="section-heading ">
+                    <h2 class="font-lg mb-40">We help you to grow</h2>
+                    <p>We believe that finding meaning and fit are essential to career satisfaction.we help you align passion and purpose, navigating the ocean of careers through pivots, new starts, and transitions.</p>
+
+                    <p>we help you align passion and purpose, navigating the ocean of careers through pivots, new starts, and transitions.</p>
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-6">
+               <div class="benefits-list">
+                    <div class="benefit-item-2">
+                        <h4> <span>01</span>How to improve yourself</h4>
+                    </div>
+
+                    <div class="benefit-item-2">
+                        <h4><span>02</span>Ten tips to improve yourself</h4>
+                    </div>
+                    <div class="benefit-item-2">
+                        <h4><span>03</span>Utilize time productively</h4>
+                    </div>
+                    <div class="benefit-item-2">
+                        <h4><span>04</span>Grow your personality </h4>
+                    </div>
+                    <div class="benefit-item-2">
+                        <h4><span>05</span>Access to industry experts</h4>
+                    </div>
+                    <div class="benefit-item-2">
+                        <h4><span>06</span>Future forward career insights</h4>
+                    </div>
+
+                    <p>Learn More about career satisfaction <a href="#">Contact Us</a></p>
+               </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+-->
+<!-- benefits end -->
+ <!-- chapters start -->
+ <!--
+ <div class="chapter-free section-padding">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-xl-5 col-lg-5">
+               <div class="chapter-img pe-3 mb-5 mb-lg-0">
+                    <img src="assets/images/about/about-1.jpg" alt="" class="img-fluid">
+               </div>
+            </div>
+
+            <div class="col-xl-7 col-lg-7">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="sewction-heading">
+                            <span class="subheading lead">Chapter 1 </span>
+                            <h2 class="font-lg mb-20">How to improve yourself</h2>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="row">
+                   <div class="col-xl-6">
+                        <div class="chapter-desc">
+                            <p>Here are many variations of passages of Lorem Ipsum available, but the majority.
+                            suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</p>
+
+                            <p>Based on real time data gathered across the universe of possible career paths and a deep understand of what's most important to you, 
+                                we provide clarity for what it takes to step into the role(s) you want
+                        </div>
+                   </div>
+
+                   <div class="col-xl-6">
+                      <p>Here are many variations of passages of Lorem Ipsum available, but the majority.
+                        suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</p>
+
+                        <p>Based on real time data gathered across the universe of possible career paths and a deep understand of what's most important to you, 
+                            decoding the required skills and expected activities, with suggestions on how to strengthen your fit.
+                    </div>
+               </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+-->
+<!-- chapters end -->
+<!-- CTA Sidebar start -->
+<!--
+<section class="cta section-padding-btm">
+    <div class="container">
+        <div class="row align-items-center cta-inner-section">
+            <div class="col-xl-5 col-lg-5">
+                <span class="subtitle">#Subscribe now </span>
+                <h2 class="font-lg mt-10">Get a free chapter of this book</h2>
+            </div>
+
+            <div class="col-xl-7 col-lg-7">
+                <div class="subscribe-form mt-4 mt-lg-0">
+                    <form action="#">
+                        <input type="text" class="form-control" placeholder="Your Email Address">
+                        <a href="#" class="btn btn-main ">Get free copy</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!-- CTA Sidebar end -->
+<!-- Testimonial section start -->
+<!--
+<section class="testimonial section-padding pb-250" id="reviews">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6">
+                <div class="section-heading text-center mb-50">
+                    <span class="subheading">Testimonials</span>
+                    <h2 class="font-lg mb-20">Reviews from happy readers</h2>
+                    <p>This book is concerned with creating typography and is essential for professionals who regularly work for clients.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-12 col-xl-12">
+                <div class="testimonials-slides owl-carousel owl-theme">
+                    <div class="testimonial-item">
+                       <div class="testimonial-inner">
+                           <div class="quote-icon"><i class="flaticon-left-quote"></i></div>
+                           
+                            <div class="testimonial-text mb-30">
+                                Cras vel purus fringilla, lobortis libero ut Proin a velit convallis, fermentum orci in, rutrum diam. Duis elementum odio a pharetra commodo.
+                            </div>
+
+                            <div class="client-info d-flex align-items-center">
+                                <div class="client-img">
+                                    <img src="assets/images/clients/testimonial-avata-01.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>Cory Zamora</h4>
+                                    <span class="meta">Marketing Specialist</span>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-inner">
+                            <div class="quote-icon"><i class="flaticon-left-quote"></i></div>
+                           
+                            <div class="testimonial-text  mb-30">
+                                Cras vel purus fringilla, lobortis libero ut Proin a velit convallis, fermentum orci in, rutrum diam. Duis elementum odio a pharetra commodo.
+                            </div>
+
+                            <div class="client-info d-flex align-items-center">
+                                <div class="client-img">
+                                    <img src="assets/images/clients/testimonial-avata-02.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>Jackie Sanders</h4>
+                                    <span class="meta">Marketing Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-inner">
+                            <div class="quote-icon"><i class="flaticon-left-quote"></i></div>
+                          
+                            <div class="testimonial-text  mb-30">
+                                Cras vel purus fringilla, lobortis libero ut Proin a velit convallis, fermentum orci in, rutrum diam. Duis elementum odio a pharetra commodo.
+                            </div>
+
+                            <div class="client-info d-flex align-items-center">
+                                <div class="client-img">
+                                    <img src="assets/images/clients/testimonial-avata-03.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>Nikolas Brooten</h4>
+                                    <span class="meta">Sales Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-inner">
+                            <div class="quote-icon"><i class="flaticon-left-quote"></i></div>
+                            
+                            <div class="testimonial-text mb-30">
+                                Cras vel purus fringilla, lobortis libero ut Proin a velit convallis, fermentum orci in, rutrum diam. Duis elementum odio a pharetra commodo.
+                            </div>
+
+                            <div class="client-info d-flex align-items-center">
+                                <div class="client-img">
+                                    <img src="assets/images/clients/testimonial-avata-04.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>Terry Ambady</h4>
+                                    <span class="meta">Marketing Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-inner">
+                            <div class="quote-icon"><i class="flaticon-left-quote"></i></div>
+                            
+                            <div class="testimonial-text mb-30">
+                                Cras vel purus fringilla, lobortis libero ut Proin a velit convallis, fermentum orci in, rutrum diam. Duis elementum odio a pharetra commodo.
+                            </div>
+
+                            <div class="client-info d-flex align-items-center">
+                                <div class="client-img">
+                                    <img src="assets/images/clients/testimonial-avata-03.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>Nikolas Brooten</h4>
+                                    <span class="meta">Sales Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!-- Testimonial section End -->
+
+ <!-- Author start -->
+ <div class="author section-padding-btm" id="author">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-lg-6 col-md-6">
+                <div class="author-image">
+                    <img src="assets/images/about/doak.png" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <div class="author-text">
+                    <span class="subheading">The Author</span>
+                    <h3 class="font-lg">John Doak</h3>
+                    <!--<p class="sub-title">Style: Art, Fiction</p>-->
+                    
+					<p>John is the Principal manager of Layer 1 Reliability Engineering at 
+                    Microsoft. Previously he was the manager of Physical Layer SRE and the 
+                    Fleet Principal Automation SWE for Azure. His teams leads efforts around 
+                    part serialization, data validation services and gating controls that 
+                    enable Azure's datacenter operations. In addition to the mission of his team, 
+                    John has led the development of Azure Data Explorer's Go SDK and the Microsoft
+                    Authentication Library for Go.
+                    </p>
+
+                    <p>Prior to Microsoft, John was a Staff Site Reliability Engineer at Google. 
+                    As part of the Network Engineering group he created their first 
+                    network automation orchestration system, configuration/command abstraction 
+                    systems and many of the automations that ran Google's backbone network. 
+                    John led the migration of Network Engineering from Python to Go over several 
+                    years, including the development of Go training classes at Google that have 
+                    been taught around the world. He was a pivotal figure in the transformation 
+                    of the network team at Google from a traditional network group to a 
+                    network/systems group that later integrated with SRE.
+                    </p>
+
+                    <p>Before his work at Google, he worked in the video game and film 
+                    industry as a Network Engineer for LucasArts/LucasFilm/Industrial 
+                    Light and Magic on franchises like Harry Potter, Marvel films, Pirates 
+                    of the Caribbean and of course Star Wars.
+                    </p>
+
+                    <p>John provides free video training classes for Go that can be found at 
+                    <a href="www.golangbasics.com">www.golangbasics.com</a> to help bootstrap 
+                    new Go programmers. You can find his musings on Go and SRE topics at 
+                    <a href="www.golangsre.com">www.golangsre.com</a>.
+                    </p>
+
+                    <p>If you like the image on the book cover, you can see more of John's 
+                    photographs from around the world at <a href="www.obscuredworld.com">www.obscuredworld.com</a>.
+                    </p>
+					
+					<div class="author-social-links">
+                        <a href="twitter.com/johnsiilver"> <i class="fab fa-twitter"></i></a>
+                        <a href="www.linkedin.com/in/johngdoak/"> <i class="fab fa-linkedin-in"></i></a>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="author section-padding-btm" id="author">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-lg-6 col-md-6">
+                <div class="author-image">
+                    <img src="assets/images/about/justice.png" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <div class="author-text">
+                    <span class="subheading">The Author</span>
+                    <h3 class="font-lg">David Justice</h3>
+                    <!--<p class="sub-title">Style: Art, Fiction</p>-->
+                    
+					<p>David Justice is the Principal Software Engineer Lead for the Azure K8s 
+                    Infrastructure and Steel Thread teams that maintain a variety of CNCF and 
+                    Byte Code Alliance projects. 
+                    </p>
+                    
+                    <p>He is a maintainer of Cluster API Provider Azure and contributor to Cluster API.</p> 
+                    
+                    <p>Prior to that, David was the technical assistant to the Azure CTO where he was r
+                    esponsible for Azure cross-group technical strategy and architecture. Early on at 
+                    Microsoft, he was a Program Manager leading Azure SDKs and CLIs where he transitioned 
+                    all Azure services to describe themselves using OpenAPI specifications in GitHub, 
+                    and established automations to generate Azure reference docs, SDKs, and CLIs.
+                    </p>
+                    
+                    <p>Prior to Microsoft, David was the CTO of a mobile CI/CD SaaS called CISimple.</p>
+					
+					<div class="author-social-links">
+                        <a href="twitter.com/davidjustice"> <i class="fab fa-twitter"></i></a>
+                        <a href="www.linkedin.com/in/davidjustice/"> <i class="fab fa-linkedin-in"></i></a>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Author end -->
+
+<!-- Clients logo Section Start -->
+<!--
+<section class="clients-section">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg col-sm-6 col-xl-2">
+                <div class="client-logo">
+                    <a href="#"><img src="assets/images/clients/logo1.png" alt="" class="img-fluid"></a>
+                </div>
+            </div>
+             <div class="col-lg col-sm-6 col-xl-2">
+                <div class="client-logo">
+                    <a href="#"><img src="assets/images/clients/logo2.png" alt="" class="img-fluid"></a>
+                </div>
+            </div>
+             <div class="col-lg col-sm-6 col-xl-2">
+                <div class="client-logo">
+                   <a href="#"> <img src="assets/images/clients/logo3.png" alt="" class="img-fluid"></a>
+                </div>
+            </div>
+             <div class="col-lg col-sm-6 col-xl-2">
+                <div class="client-logo">
+                    <a href="#"><img src="assets/images/clients/logo4.png" alt="" class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="col-lg col-sm-6 col-xl-2">
+                <div class="client-logo">
+                    <a href="#"><img src="assets/images/clients/logo5.png" alt="" class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="col-lg col-sm-6 col-xl-2">
+                <div class="client-logo border-0">
+                    <a href="#"><img src="assets/images/clients/logo6.png" alt="" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!-- Clients logo Section End -->
+<!--
+<section class="pricing section-padding"  id="pricing">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xl-6">
+                <div class="section-heading text-center mb-70">
+                    <span class="subheading">Pricing Plan</span>
+                    <h2 class="font-lg mb-20">Affordable Pricing plan</h2>
+                    <p>This book is concerned with creating typography and is essential for professionals who regularly work for clients.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-xl-4">
+                <div class="pricing-item mb-5 mb-lg-0">
+                    <div class="pricing-header">
+                        <span class="badge">Free Version</span>
+                        
+                    </div>
+
+                    <div class="price">
+                        <h2>$0.00 </h2>
+                        <span>1st Chapter Ebook</span>
+                    </div>
+                    
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fa fa-check"></i><span>25 Analytics</span> Campaign</li>
+                            <li><i class="fa fa-check"></i><span>500</span> Change Keywords</li>
+                            <li><i class="fa fa-check"></i><span>25 Social Media</span> Reviews</li>
+                            <li><i class="fa fa-check"></i><span>Free</span> Optimization</li>
+                            <li><i class="fa fa-check"></i><span>24/7</span> Support</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-main">Get it Now <i class="fa fa-angle-right ml-2"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-xl-4">
+                <div class="pricing-item featured mb-5 mb-lg-0">
+                    <div class="pricing-header">
+                        <span class="badge">eBook Version</span>
+                    </div>
+
+                    <div class="price">
+                        <h2>$29.99</h2>
+                        <span>Ebook + AudioBook </span>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fa fa-check"></i><span>25 Analytics</span> Campaign</li>
+                            <li><i class="fa fa-check"></i><span>500</span> Change Keywords</li>
+                            <li><i class="fa fa-check"></i><span>25 Social Media</span> Reviews</li>
+                            <li><i class="fa fa-check"></i><span>Free</span> Optimization</li>
+                            <li><i class="fa fa-check"></i><span>24/7</span> Support</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-main">Order Now <i class="fa fa-angle-right ml-2"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-xl-4">
+                <div class="pricing-item">
+                    <div class="pricing-header">
+                        <span class="badge">Full Version</span>
+                    </div>
+
+                    <div class="price">
+                        <h2>$39.99</h2>
+                        <span>Ebook + AudioBook + Print Copy</span>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fa fa-check"></i><span>25 Analytics</span> Campaign</li>
+                            <li><i class="fa fa-check"></i><span>500</span> Change Keywords</li>
+                            <li><i class="fa fa-check"></i><span>25 Social Media</span> Reviews</li>
+                            <li><i class="fa fa-check"></i><span>Free</span> Optimization</li>
+                            <li><i class="fa fa-check"></i><span>24/7</span> Support</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-main">Order Now <i class="fa fa-angle-right ml-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!-- Faq Section Start -->
+<!--
+<section class="faq section-padding-btm" id="faq">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-7">
+                <div class="heading text-center mb-70">
+                    <span class="subheading">Have Question on Mind</span>
+                    <h2 class="mb-40 font-lg">Frequently Asked Questions </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-xl-5">
+                <div class="faq-list-wrapper">
+                    <div class="faq-single">
+                        <h4>Do I need to make a payment?</h4>
+                        <p>No one cares about products. People care about ideas. Is a product an idea? Noup. Is a brand? A good one is.</p>
+                    </div>
+                    <div class="faq-single">
+                        <h4>Can I track my daily tasks?</h4>
+                        <p>While designing residential property, a great emphasis is placed on infrastructure: 
+                            landscaping design, transport accessibility.</p>
+                    </div>
+                    <div class="faq-single">
+                        <h4>Will you provide regular updates?</h4>
+                        <p>Big, small, online, offline, local or international. Size doesn't matter. 
+                            We work on diverse projects for top brands as well as for cool startups. Check out some of our favorites.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-5">
+                <div class="faq-list-wrapper">
+                    <div class="faq-single">
+                        <h4>Do I need to make a payment?</h4>
+                        <p>No one cares about products. People care about ideas. Is a product an idea? Noup. Is a brand? A good one is.</p>
+                    </div>
+                    <div class="faq-single">
+                        <h4>Can I track my daily tasks?</h4>
+                        <p>While designing residential property, a great emphasis is placed on infrastructure: 
+                            landscaping design, transport accessibility.</p>
+                    </div>
+                    <div class="faq-single">
+                        <h4>Will you provide regular updates?</h4>
+                        <p>Big, small, online, offline, local or international. Size doesn't matter. 
+                            We work on diverse projects for top brands as well as for cool startups. Check out some of our favorites.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            Still have a question? Reach out to us: <a href="#">example@domain.com</a>
+        </div>
+    </div>
+</section>
+-->
+<!-- FAQ Section END -->
+
+<!-- Section cta start -->
+<!--
+<section class="cta-2">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-xl-3 col-lg-3">
+                <h2 class="font-lg">50% Sale!</h2>
+            </div>
+
+            <div class="col-xl-5 col-lg-5 ps-lg-5">
+                <p>Purchase your Selected item up to 50% Discount in every week</p>
+            </div>
+            <div class="col-xl-4 col-lg-4">
+                <div class="text-lg-end mt-4 mt-lg-0">
+                    <a href="#" class="btn btn-white">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!-- Section cta End -->
+
+<!-- Footer section start -->
+<!--
+<section class="footer">
+	<div class="footer-mid">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-xl-3 me-auto col-sm-8 col-md-6">
+					<div class="widget footer-widget mb-5 mb-xl-0">				
+						<h2 class="font-lg fw-400">eBooki.</h2>
+					</div>
+				</div>
+
+				<div class="col-xl-3 me-auto col-sm-8 col-md-6">
+					<div class="widget footer-widget mb-5 mb-xl-0">				
+						<h5 class="widget-title">Call Us</h5>
+						<h3>344 5675 45605</h3>
+						<p>Mon-Fri (08:00-16.00)</p>
+					</div>
+				</div>
+
+				<div class="col-xl-3 me-auto col-sm-8 col-md-6">
+					<div class="widget footer-widget mb-5 mb-xl-0">				
+						<h5 class="widget-title">Email</h5>
+						<h3><a href="malito:hello@dreambuzz.com">hello@dreambuzz.com</a></h3>
+					</div>
+				</div>
+
+				<div class="col-xl-2 ms-lg-auto col-sm-8 col-md-6">
+					<div class="widget footer-widget mb-5 mb-xl-0">				
+						<h5 class="widget-title">Connect Us</h5>
+						<div class="footer-socials">
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							<a href="#"><i class="fab fa-pinterest"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-btm">
+		<div class="container">
+			<div class="row ">
+				<div class="col-xl-6 col-sm-12 col-lg-6 col-md-6">
+					<p class="mb-0 copyright text-lg-start">© 2021 Copyright All rights reserved by <a href="https://themeturn.com" rel="nofollow">Dreambuzz</a> </p>
+				</div>
+				<div class="col-xl-6 col-sm-12 col-lg-6 col-md-6">
+					<div class="footer-btm-links text-start text-lg-end">
+						<a href="#">Legal</a>
+						<a href="#">Supports</a>
+						<a href="#">Terms</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed-btm-top">
+		<a href="#top-header" class="js-scroll-trigger scroll-to-top"><i class="fa fa-angle-up"></i></a>
+	</div>
+	
+</section>
+-->
+<!-- Footer section End -->
+
+
+
+
+
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
+    
+    <!-- Main jQuery -->
+    <script src="assets/vendors/jquery/jquery.js"></script>
+    <!-- Bootstrap 5:0 -->
+    <script src="assets/vendors/bootstrap/popper.min.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.js"></script>
+    <!-- Counterup -->
+    <script src="assets/vendors/counterup/waypoint.js"></script>
+    <script src="assets/vendors/counterup/jquery.counterup.min.js"></script>
+    <!--  Owl Carousel -->
+    <script src="assets/vendors/owl/owl.carousel.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+
+  </body>
+  </html>
